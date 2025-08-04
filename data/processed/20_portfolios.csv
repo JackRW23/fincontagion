@@ -1,0 +1,14 @@
+bank_id,asset_class_id,asset_class_name,market_value_eur,haircut_pct,lambda_price_impact
+101,1,sovereign_bonds,3.600e+10,2.0,0.10
+101,2,corporate_bonds,1.800e+10,5.0,0.15
+101,3,listed_equities,6.000e+09,15.0,0.25
+102,1,sovereign_bonds,2.850e+10,2.0,0.10
+102,2,corporate_bonds,1.900e+10,5.0,0.15
+102,4,commercial_real_estate,5.700e+09,12.0,0.30
+103,1,sovereign_bonds,9.000e+09,2.0,0.10
+103,3,listed_equities,3.600e+09,15.0,0.25
+103,5,sovereign_cds,1.125e+09,6.0,0.20
+104,2,corporate_bonds,7.500e+09,5.0,0.15
+104,4,commercial_real_estate,3.000e+09,12.0,0.30
+105,1,sovereign_bonds,2.700e+09,2.0,0.10
+105,3,listed_equities,9.000e+08,15.0,0.25

@@ -1,0 +1,22 @@
+# Global simulation settings
+base_currency: EUR
+random_seed: 42
+monte_carlo_iter: 1000
+
+# Credit‑risk parameters
+LGD: 0.45                # Loss‑given‑default for unsecured exposures
+recovery_lag_days: 120   # Time until recovery cash‑flows
+subordinated_LGD_addon: 0.15
+
+# Interbank network toggles
+firesale_flag: true
+price_impact_function: linear
+max_firesale_iterations: 10
+
+# Shock grid defaults (override per experiment if needed)
+shock_sigma_pct: 2.0     # std‑dev for idiosyncratic shocks
+capital_ratio_kappa: 0.08
+
+# Paths (relative to project root)
+data_root: data/processed
+results_root: analysis/plots

@@ -1,0 +1,3 @@
+scenario_id,label,source,start_date,horizon_days,description
+baseline2025,Baseline 2025,FED-CCAR,2025-01-01,180,No systemic stress: GDP trend growth and low inflation.
+adverse2025,Adverse 2025,EBA-2024,2025-01-01,180,Recession with equity drawdown and credit‑spread widening.

@@ -1,0 +1,6 @@
+bank_id,name,country_iso2,total_assets_eur,rwa_eur,tier1_capital_eur,equity_eur,leverage_ratio,business_model
+101,Alpine Bank,DE,1.20000e+11,8.00000e+10,6.48000e+09,7.20000e+09,0.06,universal
+102,Britannia Capital,GB,9.50000e+10,6.05000e+10,5.13000e+09,5.70000e+09,0.06,investment
+103,Celtic Commercial Bank,IE,4.50000e+10,2.92500e+10,2.34000e+09,2.92500e+09,0.065,retail
+104,Dutch Cooperative,NL,3.00000e+10,1.80000e+10,1.62000e+09,1.80000e+09,0.06,cooperative
+105,Epsilon Regional Bank,ES,1.20000e+10,8.40000e+09,7.65000e+08,9.00000e+08,0.075,retail

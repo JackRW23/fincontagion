@@ -1,0 +1,9 @@
+lender_id,borrower_id,exposure_ead_eur,seniority,maturity_days,int_rate_bps
+101,102,2.50e+09,secured,30,55
+101,103,7.80e+08,unsecured,180,125
+102,101,1.20e+09,unsecured,7,40
+102,104,4.50e+08,secured,90,60
+103,105,3.00e+08,unsecured,14,85
+104,101,6.00e+08,subordinated,365,150
+104,105,2.00e+08,secured,60,70
+105,102,1.50e+08,unsecured,7,95
