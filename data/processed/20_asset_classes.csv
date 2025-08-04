@@ -1,0 +1,6 @@
+asset_class_id,asset_class_name,liquidity_bucket,base_volatility_pct
+1,sovereign_bonds,HQLA,1.5
+2,corporate_bonds,Level2,4.0
+3,listed_equities,Illiquid,15.0
+4,commercial_real_estate,Illiquid,8.0
+5,sovereign_cds,Level2,6.0
