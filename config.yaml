@@ -1,0 +1,16 @@
+
+---
+
+## Quick‑start (developers)
+
+```bash
+# 1. Clone & prepare an isolated env
+git clone <your‑fork‑url> fincontagion && cd fincontagion
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"     # pulls runtime + dev dependencies
+
+# 2. Run unit tests (should all pass)
+pytest -q
+
+# 3. Smoke‑run the simulator on the toy config
+python -m simulate data/processed/20_parameters.yaml

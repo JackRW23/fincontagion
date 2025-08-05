@@ -1,0 +1,33 @@
+# Python artefacts -----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.mypy_cache/
+.pytest_cache/
+.coverage
+# Virtual environments
+.venv/
+env/
+# Editors & OS cruft ---------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+# Jupyter / notebooks --------------------------------------------------------
+*.ipynb
+.ipynb_checkpoints/
+# Data & results (generated) -------------------------------------------------
+data/interim/
+data/raw/
+results/
+experiments/__pycache__/
+analysis/plots/
+# Logs & temp ----------------------------------------------------------------
+*.log
+*.tmp
+# Build artefacts ------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+# Ruff / Black cache (optional) ---------------------------------------------
+.cache/

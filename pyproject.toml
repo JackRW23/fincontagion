@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fincontagion"
+version = "0.1.0a0"
+description = "Systemic‑risk contagion simulator (early dev snapshot)"
+authors = [{name = "Your Name", email = "you@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Core runtime deps
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "networkx>=3.2",
+    "pandera>=0.17",
+    "typer[all]>=0.9",
+    "structlog>=24.1",
+]
+
+[project.optional-dependencies]
+viz = ["panel>=1.4", "plotly>=5.20"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "mypy>=1.10",
+    "black>=24.3",
+    "ruff>=0.4",
+    "pre-commit>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["algorithms*", "simulator*", "data_processing*", "tests*"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310", "py311", "py312"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+plugins = ["pydantic.mypy"]   # future – hooks for data‑model schemas
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "B", "W"]
+target-version = "py310"
